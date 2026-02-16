@@ -113,9 +113,9 @@ export function Hero() {
                         transition={{ duration: 0.6, delay: 0.3 }}
                         className="lg:w-1/2 flex justify-center lg:justify-end"
                     >
-                        <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-[600px] lg:h-[600px] rounded-full overflow-hidden border-4 border-background shadow-2xl ring-4 ring-primary/10">
+                        <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden border-4 border-background shadow-2xl ring-4 ring-primary/10">
                             <Image
-                                src="/foto.jpeg"
+                                src="/foto2.png"
                                 alt="Anargya Isadhi Maheswara"
                                 fill
                                 className="object-cover"
