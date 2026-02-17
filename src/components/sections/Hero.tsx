@@ -29,7 +29,6 @@ export function Hero() {
 
     return (
         <section id="about" className="min-h-screen flex items-center justify-center pt-16 py-20 overflow-hidden relative">
-            {/* Background Gradient Accents */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <div className="absolute top-20 -right-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse" />
                 <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000" />
