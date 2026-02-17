@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react"
 import { motion, useAnimation } from "framer-motion"
 import { Github, Linkedin, ArrowRight } from "lucide-react"
-import Image from "next/image"
 import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
@@ -113,12 +112,10 @@ export function Hero() {
                         className="lg:w-1/2 flex justify-center lg:justify-end"
                     >
                         <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden border-4 border-background shadow-2xl ring-4 ring-primary/10">
-                            <Image
-                                src="/foto2.png"
+                            <img
+                                src="/portofolio/foto2.png"
                                 alt="Anargya Isadhi Maheswara"
-                                fill
-                                className="object-cover"
-                                priority
+                                className="w-full h-full object-cover"
                             />
                         </div>
                     </motion.div>
