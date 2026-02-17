@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   title: "Anargya Isadhi Maheswara | Full Stack Engineer",
   description: "Portfolio of Anargya Isadhi Maheswara, a Full Stack Engineer building scalable platforms.",
   icons: {
-    icon: "/foto.jpeg",
-    shortcut: "/foto.jpeg",
-    apple: "/foto.jpeg",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   }
 };
 
